@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hey there!</title>
+    <style>
+        * {
+            font-family: monospace;
+            margin: 0;
+            padding: 0;
+            margin-left: 20px;
+        }
+        .dark-mode {
+            --background-color: #121212;
+            --text-color: #e0e0e0;
+            --link-color: #82aaff;
+            --border-color: #333;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            margin-top: 50px;
+            font-size: 2em;
+            margin-bottom: 0.5em;
+            color: var(--text-color);
+        }
+
+        p {
+            font-size: 1.1em;
+            margin-bottom: 1em;
+            color: var(--text-color);
+            max-width: 500px;
+        }
+        .repo-links ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0.5em 0;
+        }
+
+        .repo-links li {
+            font-size: 1.1em;
+            margin: 0.5em 0;
+        }
+
+        .repo-links a {
+            font-size: 1em;
+            color: var(--link-color);
+            border-radius: 5px;
+        }
+
+        .repo-links a:hover {
+            color:white;
+        }
+    </style>
+</head>
+<body class="dark-mode">
+
+    <h1>i'm bhagya</h1>
+    <p>i like everything machine learning :)</p>
+    
+    <div class="repo-links">
+        <ul>
+            <li><a href="https://github.com" target="_blank">placeholder</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
